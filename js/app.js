@@ -17,7 +17,7 @@ function buyCourse(e) {
     //prevents the default behavior of the form element
     e.preventDefault();
 
-    alert('Hi There!');
+    alert('Fuck!!');
     //Use delegation to find the course that was added to the shopping cart
     if (e.target.classList.contains('add-to-cart') ) {
         const course = e.target.parentElement.parentElement;
